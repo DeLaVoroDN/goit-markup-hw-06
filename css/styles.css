@@ -133,6 +133,10 @@ body {
 
 .mobile-menu-container {
   position: relative;
+  padding: 72px 16px 40px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .mobile-menu-close-btn {
@@ -185,8 +189,12 @@ body {
   color: #404bbf;
 }
 
+.page-nav-mobile {
+  margin-bottom: 168px;
+}
+
 .page-adress-mobile {
-  margin-top: 168px;
+  font-style: normal;
 }
 
 .adress-item-mobile:not(:last-child) {
@@ -244,7 +252,7 @@ body {
 
 @media screen and (min-width: 320px) {
   .container {
-    width: 318px;
+    width: 320px;
     margin-left: auto;
     margin-right: auto;
   }
