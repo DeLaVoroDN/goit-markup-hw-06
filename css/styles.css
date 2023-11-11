@@ -238,7 +238,10 @@ body {
   background-color: #404bbf;
 }
 
-/*!  */
+/*! MOBILE SECTION MAIN */
+/* ! SECTION HERO */
+
+/* ! */
 
 @media screen and (min-width: 320px) {
   .container {
