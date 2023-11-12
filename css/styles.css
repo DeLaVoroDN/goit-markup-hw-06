@@ -117,7 +117,7 @@ body {
   padding-bottom: 72px;
   background: #2e2f42;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url();
-  max-width: 320px;
+  width: 320px;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
