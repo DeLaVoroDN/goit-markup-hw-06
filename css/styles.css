@@ -42,8 +42,8 @@ body {
 }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .section {
@@ -109,7 +109,7 @@ body {
 
 /* ! /HEADER MOBILE STYLES */
 
-@media screen and (max-width: 759px) {
+@media screen and (max-width: 767px) {
   .mobile-opn-btn {
     border: none;
     background-color: transparent;
@@ -257,11 +257,10 @@ body {
   }
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .container {
-    width: 760px;
+    width: 768px;
   }
-
   /* ! HEADER TABLET STYLES */
 
   .mobile-menu {
@@ -272,8 +271,12 @@ body {
     display: none;
   }
 
+  .adress-list {
+    display: flex;
+  }
+
   .logotype {
-    margin-right: 120px;
+    margin-right: 76px;
   }
 
   .page-navigation {
@@ -286,7 +289,6 @@ body {
     align-items: flex-start;
     gap: 40px;
   }
-
   .menu-after {
     position: relative;
     color: #404bbf;
@@ -310,7 +312,7 @@ body {
     border-radius: 2px;
     margin-left: auto;
     margin-right: auto;
-    bottom: -7px;
+    bottom: -1px;
     margin-top: 20px;
     color: #404bbf;
     background-color: rgb(64, 75, 191);
@@ -328,40 +330,21 @@ body {
 
   .adress-list {
     display: flex;
+    gap: 12px;
     flex-direction: column;
   }
 
-  .adress-item:not(:last-child) {
-    margin-bottom: 12px;
-  }
   .adress-link {
     font-size: 12px;
-    margin-bottom: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    line-height: 14px;
+    letter-spacing: 0.48px;
     color: #434455;
   }
-
-  .adress-link:hover,
-  .adress-link:focus {
-    color: #404bbf;
-  }
-
-  .page-adress {
-    display: flex;
-    align-items: center;
-  }
-
-  .subtitle {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  /* ! /HEADER TABLET STYLES */
 }
+
+/* ! /HEADER TABLET STYLES */
 
 @media screen and (min-width: 1158px) {
   .container {
