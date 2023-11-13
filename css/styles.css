@@ -179,7 +179,40 @@ body {
   text-align: center;
 }
 
-/* ! /MAIN MOBILE STYLES */
+/* ! SECTION ONE */
+
+.list-icon {
+  display: none;
+}
+.our-company {
+  padding: 96px 0;
+}
+
+.comp-desc-list {
+  gap: 72px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.additional-title-company {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  color: #2e2f42;
+  text-align: center;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 
 @media screen and (max-width: 767px) {
   .mobile-opn-btn {
@@ -323,7 +356,6 @@ body {
 
 @media screen and (min-width: 320px) {
   .container {
-    width: 320px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -335,6 +367,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+
   /* ! HEADER TABLET STYLES */
 
   .mobile-menu {
@@ -462,7 +495,19 @@ body {
     line-height: 1.07;
   }
 
-  /* ! /HEADER TABLET STYLES */
+  /* ! SECTION ONE */
+
+  .comp-desc-list {
+    gap: 72px 24px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .comp-desc-list-item {
+    width: calc((100% - 44px) / 2);
+  }
+
+  /* ! /MAIN TABLET STYLES */
 }
 
 @media screen and (min-width: 1158px) {
@@ -521,6 +566,46 @@ body {
     font-size: 56px;
     line-height: 1.07;
     color: #ffffff;
+  }
+
+  /* ! SECTION ONE */
+
+  .our-company {
+    padding: 120px 0;
+  }
+
+  .list-icon {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+  }
+
+  .container-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border: 1px solid #8e8f99;
+    background: #f4f4fd;
+  }
+
+  .comp-desc-list {
+    gap: 24px;
+  }
+
+  .comp-desc-list-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .additional-title-company {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #2e2f42;
   }
 
   /* ! /MAIN MAIN PAGE STYLES */
