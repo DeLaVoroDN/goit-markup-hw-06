@@ -115,7 +115,8 @@ body {
   padding-top: 72px;
   padding-bottom: 72px;
   background: #2e2f42;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url();
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/peopleofficemob.jpg);
   height: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -123,6 +124,15 @@ body {
   background-position: center;
   background-size: cover;
   background-origin: border-box;
+}
+
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ratio: 2) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/peopleofficemob@2x.jpg);
+  }
 }
 
 .main-title {
@@ -424,9 +434,18 @@ body {
   .hero {
     padding-top: 112px;
     padding-bottom: 112px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url();
-    /* width: 768px; */
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/peopofftab.jpg);
     height: 436px;
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/peopofftab@2x.jpg);
+    }
   }
 
   .main-title {
@@ -482,9 +501,18 @@ body {
     padding-top: 188px;
     padding-bottom: 188px;
 
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url();
-    width: 100%;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/peopoffMain.jpg);
     height: 600px;
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/peopoffMain@2x.jpg);
+    }
   }
 
   .main-title {
