@@ -65,7 +65,7 @@ body {
   overflow: hidden;
 }
 
-/*! HEADER MOBILES STYLES */
+/*! MOBILES HEADER STYLES */
 .menu {
   display: none;
 }
@@ -106,11 +106,11 @@ body {
   letter-spacing: 0.03em;
   color: #2e2f42;
 }
-/* ! /HEADER MOBILE STYLES */
+/* ! /MOBILE HEADER STYLES */
 
-/* ! MAIN MOBILE STYLES */
+/* ! MOBILE MAIN STYLES */
 
-/* ! SECTION HERO */
+/* ! MOBILE SECTION HERO */
 .hero {
   padding-top: 72px;
   padding-bottom: 72px;
@@ -180,7 +180,7 @@ body {
   text-align: center;
 }
 
-/* ! SECTION ONE */
+/* ! MOBILE SECTION ONE */
 
 .list-icon {
   display: none;
@@ -215,7 +215,7 @@ body {
   color: #434455;
 }
 
-/* ! SECTION TWO */
+/* ! MOBILE SECTION TWO */
 
 .our-team {
   padding: 96px 0;
@@ -297,7 +297,7 @@ body {
   background-color: #404bbf;
 }
 
-/* ! SECTION THREE */
+/* ! MOBILE SECTION THREE */
 
 .portfolio {
   padding-top: 96px;
@@ -364,7 +364,155 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ! */
+/* ! /MOBILE MAIN STYLES */
+
+/* ! MOBILE FOOTER */
+
+.footer-content {
+  height: 664px;
+  padding: 97.5px 0;
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  margin-bottom: 72px;
+}
+
+.logo-link-footer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 17.5px;
+  color: #4d5ae5;
+}
+
+.text-footer {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 264px;
+  color: #f4f4fd;
+}
+
+.color-logo-footer {
+  color: #f4f4fd;
+}
+
+.footer-media {
+  margin-bottom: 72px;
+}
+
+.social-networks-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.social-networks-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+}
+
+.social-networks-item .social-networks-link:hover,
+.social-networks-item .social-networks-link:focus {
+  background-color: #31d0aa;
+}
+
+.social-networks-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: rgb(77, 90, 229);
+  fill: rgb(244, 244, 253);
+}
+
+/* ! SUBSCRIBE */
+
+.footer-subscribe-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.footer-subscribe-button {
+  display: inline-flex;
+  min-width: 165px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-left: 77px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+
+.footer-input {
+  width: 288px;
+  height: 40px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+}
+
+.footer-subscribe-icon {
+  fill: #ffffff;
+  margin-left: 16px;
+}
+
+.footer-form {
+  margin-top: 16px;
+  gap: 24px;
+}
+
+.footer-input-email {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: #fff;
+}
+
+/* ! BURGER */
 @media screen and (max-width: 767px) {
   .mobile-opn-btn {
     border: none;
@@ -509,6 +657,7 @@ body {
     margin-bottom: 72px;
   }
 }
+/* ! /BURGER */
 
 @media screen and (min-width: 320px) {
   .container {
@@ -518,14 +667,16 @@ body {
   }
 }
 
+/* ! MEDIA TABLET  */
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
     margin-left: auto;
     margin-right: auto;
   }
+  /* ! /MEDIA TABLET  */
 
-  /* ! HEADER TABLET STYLES */
+  /* ! TABLET HEADER STYLES */
 
   .mobile-menu {
     display: none;
@@ -616,11 +767,11 @@ body {
     display: flex;
     align-items: center;
   }
-  /* ! /HEADER TABLET STYLES */
+  /* ! /TABLET HEADER STYLES */
 
-  /* ! MAIN TABLET STYLES */
+  /* ! TABLET MAIN STYLES */
 
-  /* ! HERO SECTION */
+  /* ! TABLET HERO SECTION */
   .hero {
     padding-top: 112px;
     padding-bottom: 112px;
@@ -652,7 +803,7 @@ body {
     line-height: 1.07;
   }
 
-  /* ! SECTION ONE */
+  /* ! TABLET SECTION ONE */
 
   .comp-desc-list {
     gap: 72px 24px;
@@ -664,7 +815,7 @@ body {
     width: calc((100% - 24px) / 2);
   }
 
-  /* ! SECTION TWO */
+  /* ! TABLET SECTION TWO */
 
   .team-list {
     display: flex;
@@ -673,7 +824,7 @@ body {
     column-gap: 24px;
     row-gap: 64px;
   }
-  /* ! SECTION THREE */
+  /* ! TABLET SECTION THREE */
 
   .portfolio-list {
     column-gap: 24px;
@@ -684,17 +835,20 @@ body {
     width: calc((100% - 24px) / 2);
   }
 
-  /* ! /MAIN TABLET STYLES */
-}
+  /* ! /TABLET MAIN  */
 
+  /* ! FOOTER */
+}
+/* ! MEDIA DESCTOP */
 @media screen and (min-width: 1158px) {
   .container {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
   }
+  /* ! /MEDIA DESCTOP */
 
-  /* ! HEADER DESCTOP PAGE STYLES */
+  /* ! DESCTOP HEADER   */
   .logotype {
     margin-right: 76px;
   }
@@ -714,10 +868,10 @@ body {
   .link.menu-link.menu-after::after {
     bottom: 4px;
   }
-  /* ! /HEADER DESCTOP PAGESTYLES */
+  /* ! /DESCTOP HEADER  */
 
-  /* ! MAIN DESCTOP PAGE STYLES */
-  /* ! SECTION HERO */
+  /* ! DESCTOP MAIN STYLES */
+  /* ! DESCTOP SECTION HERO */
 
   .hero {
     padding-top: 188px;
@@ -745,7 +899,7 @@ body {
     color: #ffffff;
   }
 
-  /* ! SECTION ONE */
+  /* ! DESCTOP SECTION ONE */
 
   .our-company {
     padding: 120px 0;
@@ -785,7 +939,7 @@ body {
     color: #2e2f42;
   }
 
-  /* ! SECTION TWO */
+  /* ! DESCTOP SECTION TWO */
 
   .our-team {
     padding: 120px 0;
@@ -795,7 +949,7 @@ body {
     width: calc((100% - 72px) / 4);
   }
 
-  /* ! SECTION THREE */
+  /* ! DESCTOP SECTION THREE */
 
   .portfolio {
     padding-top: 120px;
@@ -810,5 +964,5 @@ body {
     width: calc((100% - 48px) / 3);
   }
 
-  /* ! /DESCTOP MAIN PAGE STYLES */
+  /* ! /DESCTOP MAIN STYLES */
 }
