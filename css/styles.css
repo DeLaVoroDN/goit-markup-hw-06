@@ -496,7 +496,6 @@ body {
 }
 
 .footer-form {
-  margin-top: 16px;
   gap: 24px;
 }
 
@@ -839,9 +838,8 @@ body {
   /* ! FOOTER */
 
   .footer-content {
-    height: auto;
-    padding-left: 108px;
-    padding-right: 164px;
+    padding: 96px 0;
+    height: 456px;
   }
 
   .container-holder {
@@ -854,6 +852,9 @@ body {
   }
 
   .footer-logo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 108px;
     margin-right: 24px;
   }
 
@@ -868,6 +869,12 @@ body {
 
   .social-networks-title {
     justify-content: normal;
+  }
+
+  .footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    margin-left: 108px;
   }
 
   .footer-subscribe-button {
