@@ -1118,7 +1118,7 @@ body {
   /* ! TABLET BACKDROP */
   /* ! /TABLET BACKDROP */
 
-  /* ! TEBLET MODAL WINDOW */
+  /* ! TABLET MODAL WINDOW */
   .modal {
     width: 408px;
     min-height: 584px;
@@ -1265,12 +1265,17 @@ body {
     padding: 100px 0;
   }
 
+  .container-holder {
+    flex-wrap: nowrap;
+  }
+
   .footer-media,
   .footer-logo {
     margin-bottom: 0;
   }
 
   .footer-logo {
+    margin-left: 0;
     margin-right: 120px;
   }
 
@@ -1280,6 +1285,10 @@ body {
   .footer-form {
     display: flex;
     gap: 24px;
+  }
+
+  .footer-subscribe {
+    margin-left: 0;
   }
 
   .footer-subscribe-button {
