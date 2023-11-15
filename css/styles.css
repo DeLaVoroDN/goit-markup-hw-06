@@ -369,7 +369,6 @@ body {
 /* ! MOBILE FOOTER */
 
 .footer-content {
-  height: 664px;
   padding: 97.5px 0;
   background-color: #2e2f42;
 }
@@ -838,6 +837,50 @@ body {
   /* ! /TABLET MAIN  */
 
   /* ! FOOTER */
+
+  .footer-content {
+    height: auto;
+    padding-left: 108px;
+    padding-right: 164px;
+  }
+
+  .container-holder {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .logo-link-footer {
+    justify-content: normal;
+  }
+
+  .footer-logo {
+    margin-right: 24px;
+  }
+
+  .social-networks-menu {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+  }
+
+  .social-networks-title {
+    justify-content: normal;
+  }
+
+  .footer-subscribe-button {
+    margin-left: 24px;
+  }
+
+  .footer-subscribe-title {
+    justify-content: normal;
+  }
+
+  .footer-input-email {
+    width: 264px;
+  }
 }
 /* ! MEDIA DESCTOP */
 @media screen and (min-width: 1158px) {
@@ -965,4 +1008,31 @@ body {
   }
 
   /* ! /DESCTOP MAIN STYLES */
+
+  /* ! DESCTOP FOOTER */
+
+  .footer-content {
+    padding: 100px 0;
+  }
+
+  .footer-media,
+  .footer-logo {
+    margin-bottom: 0;
+  }
+
+  .footer-logo {
+    margin-right: 120px;
+  }
+
+  .footer-media {
+    margin-right: 80px;
+  }
+  .footer-form {
+    display: flex;
+    gap: 24px;
+  }
+
+  .footer-subscribe-button {
+    margin-left: 0;
+  }
 }
