@@ -1,4 +1,4 @@
-/*! RULES TAG*/
+/*! RULES TAG*/ /* Этот комментарий сохраняется при сжатии CSS файлов и, вероятно, используется для идентификации определенных блоков стилей. */
 
 h1,
 h2,
@@ -7,1013 +7,1023 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 0; /* Устанавливает верхний отступ в 0 для заголовков и абзацев. */
+  margin-bottom: 0; /* Устанавливает нижний отступ в 0 для заголовков и абзацев. */
 }
 
 ul,
 ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+  margin-top: 0; /* Устанавливает верхний отступ в 0 для неупорядоченных и упорядоченных списков. */
+  margin-bottom: 0; /* Устанавливает нижний отступ в 0 для неупорядоченных и упорядоченных списков. */
+  padding-left: 0; /* Устанавливает левый внутренний отступ в 0 для неупорядоченных и упорядоченных списков. */
 }
 
 img {
-  display: block;
+  display: block; /* Устанавливает значение display в block для изображений, чтобы убрать лишние пробелы вокруг них. */
 }
 
 button {
-  cursor: pointer;
+  cursor: pointer; /* Устанавливает указатель мыши в виде кнопки при наведении на кнопку. */
 }
 
 .list {
-  list-style-type: none;
+  list-style-type: none; /* Убирает маркеры списка для элементов с классом .list. */
 }
 
 .link {
-  text-decoration: none;
+  text-decoration: none; /* Убирает подчеркивание ссылок. */
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  color: #434455;
-  background: #ffffff;
+  font-family: 'Roboto', sans-serif; /* Задает шрифт для всего документа. */
+  font-size: 16px; /* Устанавливает размер шрифта для всего документа. */
+  color: #434455; /* Задает цвет текста для всего документа. */
+  background: #ffffff; /* Задает цвет фона для всего документа. */
 }
 
 .container {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 16px; /* Добавляет внутренний отступ слева для элементов с классом .container. */
+  padding-right: 16px; /* Добавляет внутренний отступ справа для элементов с классом .container. */
 }
 
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 60px; /* Добавляет верхний внутренний отступ в разделах. */
+  padding-bottom: 60px; /* Добавляет нижний внутренний отступ в разделах. */
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+  position: absolute; /* Позволяет элементу занимать определенное место на странице. */
+  width: 1px; /* Задает ширину элемента. */
+  height: 1px; /* Задает высоту элемента. */
+  margin: -1px; /* Устанавливает отрицательные отступы, чтобы элемент был за пределами видимой области. */
+  border: 0; /* Убирает границы элемента. */
+  padding: 0; /* Убирает внутренние отступы элемента. */
+  white-space: nowrap; /* Запрещает перенос текста. */
+  clip-path: inset(100%); /* Вырезает элемент из потока документа. */
+  clip: rect(0 0 0 0); /* Определяет размеры области отсечения для элемента. */
+  overflow: hidden; /* Убирает все, что выходит за пределы области отсечения. */
 }
 
-/*! MOBILES HEADER STYLES */
+/*! MOBILES HEADER STYLES */ /* Этот комментарий вероятно обозначает начало стилей для мобильной версии заголовка. */
+
 .menu {
-  display: none;
+  display: none; /* Скрывает элемент с классом .menu. */
 }
 
 .subtitle {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: flex; /* Устанавливает дисплей флекс для элементов с классом .subtitle. */
+  align-items: center; /* Выравнивает элементы по вертикали. */
+  justify-content: space-between; /* Распределяет пространство между элементами по горизонтали. */
 }
 
 .page-header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc; /* Добавляет нижнюю границу для элемента с классом .page-header. */
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 1px 6px rgba(46, 47, 66, 0.08);
+    0px 1px 6px rgba(46, 47, 66, 0.08); /* Добавляет тень для элемента с классом .page-header. */
 }
 
 .adress-list {
-  display: none;
+  display: none; /* Скрывает элемент с классом .adress-list. */
 }
 
 .logotype {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17em;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif; /* Задает шрифт для элемента с классом .logotype. */
+  font-size: 18px; /* Устанавливает размер шрифта для элемента с классом .logotype. */
+  font-weight: 700; /* Задает жирное начертание для текста. */
+  line-height: 1.17em; /* Устанавливает высоту строки. */
+  letter-spacing: 0.03em; /* Устанавливает расстояние между буквами. */
+  text-transform: uppercase; /* Преобразует текст в верхний регистр. */
+  color: #4d5ae5; /* Задает цвет текста для элемента с классом .logotype. */
 }
 
 .logotype-span {
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17em;
-  letter-spacing: 0.03em;
-  color: #2e2f42;
+  font-family: Raleway; /* Задает шрифт для элементов с классом .logotype-span. */
+  font-size: 18px; /* Устанавливает размер шрифта. */
+  font-weight: 700; /* Задает жирное начертание для текста. */
+  line-height: 1.17em; /* Устанавливает высоту строки. */
+  letter-spacing: 0.03em; /* Устанавливает расстояние между буквами. */
+  color: #2e2f42; /* Задает цвет текста. */
 }
-/* ! /MOBILE HEADER STYLES */
+/* ! /MOBILE HEADER STYLES */ /* Конец стилей для мобильного заголовка. */
 
-/* ! MOBILE MAIN STYLES */
+/* ! MOBILE MAIN STYLES */ /* Начало основных стилей для мобильной версии. */
 
-/* ! MOBILE SECTION HERO */
+/* ! MOBILE SECTION HERO */ /* Стили для главного раздела в мобильной версии. */
 .hero {
-  padding-top: 72px;
-  padding-bottom: 72px;
-  background: #2e2f42;
+  padding-top: 72px; /* Верхний внутренний отступ. */
+  padding-bottom: 72px; /* Нижний внутренний отступ. */
+  background: #2e2f42; /* Задний фон с цветом. */
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/peopleofficemob.jpg);
-  height: 100%;
-  min-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-origin: border-box;
+    url(../images/peopleofficemob.jpg); /* Добавление изображения фона с градиентом. */
+  height: 100%; /* Высота равная 100% экрана. */
+  min-width: 100%; /* Минимальная ширина равная 100% экрана. */
+  margin-left: auto; /* Автоматический отступ слева. */
+  margin-right: auto; /* Автоматический отступ справа. */
+  background-repeat: no-repeat; /* Запрещает повторение фонового изображения. */
+  background-position: center; /* Позиционирует фоновое изображение по центру. */
+  background-size: cover; /* Масштабирует фоновое изображение, чтобы оно полностью покрывало контейнер. */
+  background-origin: border-box; /* Задает точку начала фонового изображения. */
 }
 
 @media screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx),
-  screen and (min-device-pixel-ratio: 2) {
+  /* Медиа запрос для экранов с высоким разрешением. */ screen and (min-resolution: 2dppx),
+  /* Медиа запрос для экранов с высоким разрешением. */ screen and (min-device-pixel-ratio: 2) {
+  /* Медиа запрос для экранов с высоким разрешением. */
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../images/peopleofficemob@2x.jpg);
+      url(../images/peopleofficemob@2x.jpg); /* Замена изображения фона для экранов с высоким разрешением. */
   }
 }
 
 .main-title {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 72px;
-  max-width: 288px;
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.12;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #ffffff;
+  margin-left: auto; /* Автоматический отступ слева. */
+  margin-right: auto; /* Автоматический отступ справа. */
+  margin-bottom: 72px; /* Нижний внешний отступ. */
+  max-width: 288px; /* Максимальная ширина блока. */
+  text-align: center; /* Выравнивание текста по центру. */
+  font-size: 36px; /* Размер шрифта. */
+  font-weight: 700; /* Задает жирное начертание для текста. */
+  line-height: 1.12; /* Устанавливает высоту строки. */
+  letter-spacing: 0.02em; /* Устанавливает расстояние между буквами. */
+  text-transform: capitalize; /* Преобразует текст в верхний регистр. */
+  color: #ffffff; /* Задает цвет текста. */
 }
 
 .order-service-btn {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  border-radius: 4px;
-  color: #ffffff;
-  background: #4d5ae5;
+  font-family: 'Roboto', sans-serif; /* Задает шрифт для кнопки. */
+  font-size: 16px; /* Размер шрифта. */
+  font-weight: 500; /* Задает полужирное начертание для текста. */
+  line-height: 1.5; /* Устанавливает высоту строки. */
+  letter-spacing: 0.04em; /* Устанавливает расстояние между буквами. */
+  display: block; /* Блочный элемент. */
+  margin-left: auto; /* Автоматический отступ слева. */
+  margin-right: auto; /* Автоматический отступ справа. */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение цвета фона при наведении. */
+  min-width: 169px; /* Минимальная ширина кнопки. */
+  height: 56px; /* Высота кнопки. */
+  border: none; /* Убирает границу кнопки. */
+  border-radius: 4px; /* Радиус скругления углов кнопки. */
+  color: #ffffff; /* Задает цвет текста. */
+  background: #4d5ae5; /* Задний фон с цветом. */
 }
 
-.order-service-btn:hover,
+.order-service-btn:hover,  /* Стиль при наведении на кнопку. */
 .order-service-btn:focus {
-  color: #ffffff;
-  background-color: #404bbf;
-}
-.sub-title {
-  display: block;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
+  /* Стиль при фокусе на кнопке. */
+  color: #ffffff; /* Изменение цвета текста. */
+  background-color: #404bbf; /* Изменение цвета фона. */
 }
 
-/* ! MOBILE SECTION ONE */
+.sub-title {
+  display: block; /* Блочный элемент. */
+  font-size: 36px; /* Размер шрифта. */
+  line-height: 1.2; /* Устанавливает высоту строки. */
+  text-align: center; /* Выравнивание текста по центру. */
+}
+
+/* ! MOBILE SECTION ONE */ /* Стили для первого раздела в мобильной версии. */
 
 .list-icon {
-  display: none;
+  display: none; /* Скрывает элемент с классом .list-icon. */
 }
+
 .our-company {
-  padding: 96px 0;
+  padding: 96px 0; /* Внутренний отступ сверху и снизу. */
 }
 
 .comp-desc-list {
-  gap: 72px;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+  gap: 72px; /* Задает расстояние между элементами списка. */
+  list-style-type: none; /* Убирает маркеры списка. */
+  display: flex; /* Элементы списка отображаются в строку. */
+  justify-content: space-between; /* Равномерно распределяет пространство между элементами. */
+  flex-direction: column; /* Элементы списка располагаются в столбец. */
 }
 
 .additional-title-company {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.12;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-  color: #2e2f42;
-  text-align: center;
+  font-size: 36px; /* Размер шрифта. */
+  font-weight: 700; /* Задает жирное начертание для текста. */
+  line-height: 1.12; /* Устанавливает высоту строки. */
+  letter-spacing: 0.02em; /* Устанавливает расстояние между буквами. */
+  margin-bottom: 8px; /* Нижний внешний отступ. */
+  color: #2e2f42; /* Задает цвет текста. */
+  text-align: center; /* Выравнивание текста по центру. */
 }
 
 .text {
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  color: #434455;
+  font-size: 16px; /* Размер шрифта. */
+  line-height: 1.5; /* Устанавливает высоту строки. */
+  font-weight: 500; /* Задает полужирное начертание для текста. */
+  letter-spacing: 0.02em; /* Устанавливает расстояние между буквами. */
+  color: #434455; /* Задает цвет текста. */
 }
 
-/* ! MOBILE SECTION TWO */
+/* ! MOBILE SECTION TWO */ /* Стили для второго раздела в мобильной версии. */
 
 .our-team {
-  padding: 96px 0;
-  background-color: #f4f4fd;
-  color: #2e2f42;
+  padding: 96px 0; /* Внутренний отступ сверху и снизу. */
+  background-color: #f4f4fd; /* Задний фон с цветом. */
+  color: #2e2f42; /* Задает цвет текста. */
 }
 
 .secondary-title {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  margin-bottom: 72px;
-  text-transform: capitalize;
-  color: #2e2f42;
+  font-size: 36px; /* Размер шрифта. */
+  font-weight: 700; /* Задает жирное начертание для текста. */
+  line-height: 1.11; /* Устанавливает высоту строки. */
+  letter-spacing: 0.02em; /* Устанавливает расстояние между буквами. */
+  text-align: center; /* Выравнивание текста по центру. */
+  margin-bottom: 72px; /* Нижний внешний отступ. */
+  text-transform: capitalize; /* Преобразует текст в верхний регистр. */
+  color: #2e2f42; /* Задает цвет текста. */
 }
 
 .team-list {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  display: flex; /* Элементы списка отображаются в строку. */
+  align-items: center; /* Выравнивание элементов списка по центру. */
+  flex-wrap: wrap; /* Перенос элементов списка на следующую строку при нехватке места. */
 }
 
 .team-list-item {
-  width: 264px;
+  width: 264px; /* Ширина элемента списка. */
 
-  border-radius: 0px 0px 4px 4px;
+  border-radius: 0px 0px 4px 4px; /* Скругление нижних углов элемента списка. */
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-  background-color: #ffffff;
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08); /* Добавление тени для элемента списка. */
+  background-color: #ffffff; /* Задний фон с цветом. */
 }
 
 .name-position {
-  padding: 32px 0;
+  padding: 32px 0; /* Внутренний отступ сверху и снизу. */
 }
 
 .additional-title {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  margin-bottom: 8px;
-  color: #2e2f42;
+  font-size: 20px; /* Размер шрифта. */
+  font-weight: 500; /* Задает полужирное начертание для текста. */
+  line-height: 1.2; /* Устанавливает высоту строки. */
+  letter-spacing: 0.02em; /* Устанавливает расстояние между буквами. */
+  text-align: center; /* Выравнивание текста по центру. */
+  margin-bottom: 8px; /* Нижний внешний отступ. */
+  color: #2e2f42; /* Задает цвет текста. */
 }
 
 .text-section-two {
-  font-size: 16px;
-  margin-bottom: 8px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-align: center;
+  font-size: 16px; /* Размер шрифта. */
+  margin-bottom: 8px; /* Нижний внешний отступ. */
+  line-height: 1.5; /* Устанавливает высоту строки. */
+  letter-spacing: 0.02em; /* Устанавливает расстояние между буквами. */
+  color: #434455; /* Задает цвет текста. */
+  text-align: center; /* Выравнивание текста по центру. */
 }
 
 .social-list {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
+  display: flex; /* Элементы списка отображаются в строку. */
+  justify-content: center; /* Выравнивание элементов списка по центру. */
+  gap: 24px; /* Расстояние между элементами списка. */
 }
 
 .social-list-item {
-  width: 40px;
-  height: 40px;
+  width: 40px; /* Ширина элемента списка. */
+  height: 40px; /* Высота элемента списка. */
 }
 
 .social-list-link {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: #4d5ae5;
+  display: flex; /* Элемент списка отображается как блочный. */
+  width: 100%; /* Ширина элемента списка. */
+  height: 100%; /* Высота элемента списка. */
+  align-items: center; /* Выравнивание элементов списка по центру по вертикали. */
+  justify-content: center; /* Выравнивание элементов списка по центру по горизонтали. */
+  border-radius: 50%; /* Скругление углов элемента списка. */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение цвета фона при наведении. */
+  background-color: #4d5ae5; /* Задний фон с цветом. */
 }
 
 .social-list-icon {
-  fill: #f4f4fd;
+  fill: #f4f4fd; /* Задает цвет иконки. */
 }
 
-.social-list-link:hover,
+.social-list-link:hover,  /* Стиль при наведении на элемент списка социальных ссылок. */
 .social-list-link:focus {
-  background-color: #404bbf;
+  /* Стиль при фокусе на элементе списка социальных ссылок. */
+  background-color: #404bbf; /* Изменение цвета фона при наведении или фокусе. */
 }
 
-/* ! MOBILE SECTION THREE */
+/* ! MOBILE SECTION THREE */ /* Стили для третьего раздела в мобильной версии. */
 
 .portfolio {
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding-top: 96px; /* Верхний внутренний отступ. */
+  padding-bottom: 96px; /* Нижний внутренний отступ. */
 }
 
 .portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 48px;
+  display: flex; /* Элементы списка отображаются в строку. */
+  flex-wrap: wrap; /* Разрешает перенос элементов списка на следующую строку при нехватке места. */
+  row-gap: 48px; /* Расстояние между строками списка. */
 }
 
 .portfolio-list-item {
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение тени при наведении. */
 }
 
 .portfolio-list-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 2px 1px rgba(46, 47, 66, 0.08); /* Изменение тени при наведении. */
 }
 
-.portfolio-list-item:hover .overlay,
+.portfolio-list-item:hover .overlay,  /* Стиль для наложения при наведении на элемент списка. */
 .portfolio-list-item:focus .overlay {
-  background-color: #404bbf;
-  transform: translateY(0%);
+  /* Стиль для наложения при фокусе на элемент списка. */
+  background-color: #404bbf; /* Изменение цвета фона наложения. */
+  transform: translateY(0%); /* Смещение наложения вверх. */
 }
 
 .additions {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
+  padding: 32px 16px; /* Внутренний отступ сверху и снизу, внешний отступ слева и справа. */
+  border: 1px solid #e7e9fc; /* Задает границу блока. */
+  border-top: none; /* Убирает верхнюю границу блока. */
 }
 
 .additional-title-section-three {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-  color: #2e2f42;
+  font-size: 20px; /* Размер шрифта. */
+  font-weight: 500; /* Задает полужирное начертание для текста. */
+  line-height: 1.2; /* Устанавливает высоту строки. */
+  letter-spacing: 0.02em; /* Устанавливает расстояние между буквами. */
+  margin-bottom: 8px; /* Нижний внешний отступ. */
+  color: #2e2f42; /* Задает цвет текста. */
 }
 
 .our-benefits-img {
-  position: relative;
-  overflow: hidden;
+  position: relative; /* Позиционирование элемента относительно исходного положения. */
+  overflow: hidden; /* Обрезание содержимого, выходящего за границы блока. */
 }
 
 .overlay {
-  font-family: Roboto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  color: #f4f4fd;
-  padding: 40px 32px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  overflow: auto;
-  transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: Roboto; /* Задает шрифт для текста в наложении. */
+  position: absolute; /* Позиционирование абсолютно. */
+  top: 0; /* Располагает наложение вверху родительского элемента. */
+  left: 0; /* Располагает наложение влево родительского элемента. */
+  width: 100%; /* Ширина наложения равна 100% ширины родительского элемента. */
+  height: 100%; /* Высота наложения равна 100% высоты родительского элемента. */
+  background-color: #4d5ae5; /* Задний фон с цветом. */
+  color: #f4f4fd; /* Цвет текста. */
+  padding: 40px 32px; /* Внутренний отступ сверху и снизу, внешний отступ слева и справа. */
+  font-size: 16px; /* Размер шрифта. */
+  font-weight: 400; /* Задает нормальное начертание для текста. */
+  line-height: 1.5; /* Устанавливает высоту строки. */
+  letter-spacing: 0.02em; /* Устанавливает расстояние между буквами. */
+  overflow: auto; /* Позволяет прокручивать содержимое, если оно не помещается. */
+  transform: translateY(100%); /* Смещает наложение вниз на 100% высоты. */
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение положения при анимации. */
 }
 
-/* ! /MOBILE MAIN STYLES */
+/* ! /MOBILE MAIN STYLES */ /* Конец основных стилей для мобильной версии. */
 
-/* ! MOBILE FOOTER */
+/* ! MOBILE FOOTER */ /* Стили для подвала в мобильной версии. */
 
 .footer-content {
-  padding: 97.5px 0;
-  background-color: #2e2f42;
+  padding: 97.5px 0; /* Внутренний отступ сверху и снизу. */
+  background-color: #2e2f42; /* Задний фон с цветом. */
 }
 
 .footer-logo {
-  margin-bottom: 72px;
+  margin-bottom: 72px; /* Нижний внешний отступ. */
 }
 
 .logo-link-footer {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 17.5px;
-  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif; /* Задает шрифт для текста ссылки. */
+  font-size: 18px; /* Размер шрифта. */
+  font-weight: 700; /* Задает жирное начертание для текста. */
+  line-height: 1.17; /* Устанавливает высоту строки. */
+  text-transform: uppercase; /* Преобразует текст в верхний регистр. */
+  letter-spacing: 0.03em; /* Устанавливает расстояние между буквами. */
+  display: flex; /* Элемент отображается как блок. */
+  justify-content: center; /* Выравнивание элемента по центру по горизонтали. */
+  align-items: center; /* Выравнивание элемента по центру по вертикали. */
+  margin-bottom: 17.5px; /* Нижний внешний отступ. */
+  color: #4d5ae5; /* Цвет текста ссылки. */
 }
 
 .text-footer {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  max-width: 264px;
-  color: #f4f4fd;
+  font-size: 16px; /* Размер шрифта. */
+  line-height: 1.5; /* Устанавливает высоту строки. */
+  letter-spacing: 0.02em; /* Устанавливает расстояние между буквами. */
+  max-width: 264px; /* Максимальная ширина блока. */
+  color: #f4f4fd; /* Цвет текста. */
 }
 
 .color-logo-footer {
-  color: #f4f4fd;
+  color: #f4f4fd; /* Цвет логотипа. */
 }
 
 .footer-media {
-  margin-bottom: 72px;
+  margin-bottom: 72px; /* Нижний внешний отступ. */
 }
 
 .social-networks-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-bottom: 16px;
-  color: #ffffff;
+  display: flex; /* Элемент отображается как блок. */
+  justify-content: center; /* Выравнивание по центру по горизонтали. */
+  align-items: center; /* Выравнивание по центру по вертикали. */
+  font-family: Roboto; /* Шрифт текста. */
+  font-size: 16px; /* Размер шрифта. */
+  font-weight: 500; /* Задает полужирное начертание для текста. */
+  line-height: 1.5; /* Устанавливает высоту строки. */
+  letter-spacing: 0.02em; /* Устанавливает расстояние между буквами. */
+  margin-bottom: 16px; /* Нижний внешний отступ. */
+  color: #ffffff; /* Цвет текста. */
 }
 
 .social-networks-menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  width: 100%;
-  height: 100%;
-  list-style-type: none;
+  display: flex; /* Элементы списка отображаются в строку. */
+  justify-content: center; /* Выравнивание по центру по горизонтали. */
+  align-items: center; /* Выравнивание по центру по вертикали. */
+  gap: 16px; /* Расстояние между элементами списка. */
+  width: 100%; /* Ширина списка равна 100% ширины родительского элемента. */
+  height: 100%; /* Высота списка равна 100% высоты родительского элемента. */
+  list-style-type: none; /* Убирает маркеры списка. */
 }
 
 .social-networks-item .social-networks-link:hover,
 .social-networks-item .social-networks-link:focus {
-  background-color: #31d0aa;
+  background-color: #31d0aa; /* Изменение цвета фона при наведении или фокусе. */
 }
 
 .social-networks-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: rgb(77, 90, 229);
-  fill: rgb(244, 244, 253);
+  display: flex; /* Элемент отображается как блок. */
+  justify-content: center; /* Выравнивание по центру по горизонтали. */
+  align-items: center; /* Выравнивание по центру по вертикали. */
+  width: 40px; /* Ширина элемента списка. */
+  height: 40px; /* Высота элемента списка. */
+  border-radius: 50%; /* Скругление углов элемента списка. */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение цвета фона при наведении. */
+  background-color: rgb(77, 90, 229); /* Задний фон с цветом. */
+  fill: rgb(244, 244, 253); /* Цвет иконки внутри элемента списка. */
 }
 
-/* ! MOBILE SUBSCRIBE */
+/* ! MOBILE SUBSCRIBE */ /* Стили для раздела подписки в мобильной версии. */
 
 .footer-subscribe-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-bottom: 16px;
-  color: #ffffff;
+  display: flex; /* Элемент отображается как блок. */
+  justify-content: center; /* Выравнивание по центру по горизонтали. */
+  align-items: center; /* Выравнивание по центру по вертикали. */
+  font-family: Roboto; /* Шрифт текста. */
+  font-size: 16px; /* Размер шрифта. */
+  font-weight: 500; /* Задает полужирное начертание для текста. */
+  line-height: 1.5; /* Устанавливает высоту строки. */
+  letter-spacing: 0.02em; /* Устанавливает расстояние между буквами. */
+  margin-bottom: 16px; /* Нижний внешний отступ. */
+  color: #ffffff; /* Цвет текста. */
 }
 
 .footer-subscribe-button {
-  display: inline-flex;
-  min-width: 165px;
-  height: 40px;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  margin-left: 77px;
-  border: none;
-  border-radius: 4px;
-  background-color: #4d5ae5;
-  color: #ffffff;
+  display: inline-flex; /* Элемент отображается как блочный с возможностью настройки отступов. */
+  min-width: 165px; /* Минимальная ширина элемента. */
+  height: 40px; /* Высота элемента. */
+  justify-content: center; /* Выравнивание по центру по горизонтали. */
+  align-items: center; /* Выравнивание по центру по вертикали. */
+  font-family: 'Roboto', sans-serif; /* Шрифт текста. */
+  font-size: 16px; /* Размер шрифта. */
+  font-weight: 500; /* Задает полужирное начертание для текста. */
+  line-height: 1.5; /* Устанавливает высоту строки. */
+  letter-spacing: 0.04em; /* Устанавливает расстояние между буквами. */
+  margin-left: 77px; /* Левый внешний отступ. */
+  border: none; /* Убирает границу у элемента. */
+  border-radius: 4px; /* Скругление углов элемента. */
+  background-color: #4d5ae5; /* Задний фон с цветом. */
+  color: #ffffff; /* Цвет текста. */
 }
 
 .footer-input {
-  width: 288px;
-  height: 40px;
-  margin-bottom: 16px;
-  border-radius: 4px;
-  border: 1px solid #fff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background-color: transparent;
+  width: 288px; /* Ширина элемента. */
+  height: 40px; /* Высота элемента. */
+  margin-bottom: 16px; /* Нижний внешний отступ. */
+  border-radius: 4px; /* Скругление углов элемента. */
+  border: 1px solid #fff; /* Граница элемента. */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); /* Тень элемента. */
+  background-color: transparent; /* Прозрачный фон элемента. */
 }
 
 .footer-subscribe-icon {
-  fill: #ffffff;
-  margin-left: 16px;
+  fill: #ffffff; /* Задает цвет иконки. */
+  margin-left: 16px; /* Левый внешний отступ. */
 }
 
 .footer-form {
-  gap: 24px;
+  gap: 24px; /* Расстояние между элементами формы. */
 }
 
 .footer-input-email {
-  font-family: Roboto;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  padding-left: 16px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  color: #fff;
+  font-family: Roboto; /* Шрифт текста. */
+  font-size: 12px; /* Размер шрифта. */
+  font-weight: 400; /* Задает нормальное начертание для текста. */
+  line-height: 1.5; /* Устанавливает высоту строки. */
+  letter-spacing: 0.04em; /* Устанавливает расстояние между буквами. */
+  padding-left: 16px; /* Левый внутренний отступ текстового поля. */
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); /* Создает тень вокруг элемента. */
+  color: #fff; /* Цвет текста. */
 }
 
-/* ! MOBILE BACKDROP */
+/* ! MOBILE BACKDROP */ /* Стили для подложки в мобильной версии. */
 
 .backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  z-index: 9999999;
-  width: 100%;
-  height: 100%;
-  visibility: hidden;
-  background-color: rgba(46, 47, 66, 0.4);
-  pointer-events: none;
+  position: fixed; /* Позиционирование элемента фиксированное. */
+  top: 0; /* Отступ от верхнего края страницы. */
+  left: 0; /* Отступ от левого края страницы. */
+  opacity: 0; /* Прозрачность элемента. */
+  z-index: 9999999; /* Задает порядок слоев элемента. */
+  width: 100%; /* Ширина элемента. */
+  height: 100%; /* Высота элемента. */
+  visibility: hidden; /* Скрытие элемента. */
+  background-color: rgba(46, 47, 66, 0.4); /* Цвет фона с прозрачностью. */
+  pointer-events: none; /* Отключение событий мыши на элементе. */
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение свойств при переходе. */
 }
 
 .backdrop.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 1; /* Прозрачность элемента. */
+  visibility: visible; /* Видимость элемента. */
+  pointer-events: auto; /* Включение событий мыши на элементе. */
 }
 
-/* ! MOBILE MODAL WINDOW */
+/* ! MOBILE MODAL WINDOW */ /* Стили для модального окна в мобильной версии. */
 
 .modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 288px;
-  min-height: 623px;
-  border-radius: 4px;
-  padding: 72px 16px 24px;
+  position: absolute; /* Абсолютное позиционирование элемента. */
+  top: 50%; /* Отступ от верхнего края страницы. */
+  left: 50%; /* Отступ от левого края страницы. */
+  transform: translate(-50%, -50%); /* Смещение элемента по оси X и Y. */
+  width: 288px; /* Ширина элемента. */
+  min-height: 623px; /* Минимальная высота элемента. */
+  border-radius: 4px; /* Скругление углов элемента. */
+  padding: 72px 16px 24px; /* Внутренние отступы элемента. */
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: #fcfcfc;
+    0px 2px 1px rgba(0, 0, 0, 0.2); /* Тень элемента. */
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение свойства при переходе. */
+  background-color: #fcfcfc; /* Цвет фона элемента. */
 }
 
 .modal-close-btn {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #e7e9fc;
-  padding: 0;
-  line-height: 0;
-  fill: #2e2f42;
+  position: absolute; /* Абсолютное позиционирование элемента. */
+  top: 24px; /* Отступ от верхнего края элемента. */
+  right: 24px; /* Отступ от правого края элемента. */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Граница элемента. */
+  width: 24px; /* Ширина элемента. */
+  height: 24px; /* Высота элемента. */
+  border-radius: 50%; /* Скругление углов элемента. */
+  display: flex; /* Элемент отображается как блок. */
+  align-items: center; /* Выравнивание по центру по вертикали. */
+  justify-content: center; /* Выравнивание по центру по горизонтали. */
+  background-color: #e7e9fc; /* Цвет фона элемента. */
+  padding: 0; /* Внутренние отступы элемента. */
+  line-height: 0; /* Высота строки. */
+  fill: #2e2f42; /* Цвет иконки. */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение свойств при переходе. */
 }
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-  background-color: #404bbf;
-  fill: #ffffff;
-  border: none;
+  background-color: #404bbf; /* Цвет фона элемента при наведении или фокусе. */
+  fill: #ffffff; /* Цвет иконки при наведении или фокусе. */
+  border: none; /* Убирает границу у элемента. */
 }
 
 .rewiew-form-description {
-  width: 256px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.02em;
-  margin-bottom: 16px;
-  color: #2e2f42;
+  width: 256px; /* Ширина элемента. */
+  font-size: 16px; /* Размер шрифта. */
+  font-weight: 500; /* Задает полужирное начертание для текста. */
+  line-height: 1.5; /* Устанавливает высоту строки. */
+  text-align: center; /* Выравнивание текста по центру. */
+  letter-spacing: 0.02em; /* Устанавливает расстояние между буквами. */
+  margin-bottom: 16px; /* Нижний внешний отступ. */
+  color: #2e2f42; /* Цвет текста. */
 }
 
 /* ! REWIEW FORM STYLE */
 
 .rewiew-form-field-label {
-  display: block;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  margin-bottom: 4px;
-  color: #8e8f99;
+  display: block; /* Элемент отображается как блок, чтобы занимать всю доступную ширину. */
+  font-size: 12px; /* Размер шрифта. */
+  font-weight: 400; /* Нормальное начертание шрифта. */
+  line-height: 1.17; /* Высота строки. */
+  letter-spacing: 0.04em; /* Расстояние между буквами. */
+  margin-bottom: 4px; /* Нижний внешний отступ. */
+  color: #8e8f99; /* Цвет текста. */
 }
 
 .rewiew-form-input-wrapper {
-  position: relative;
-  margin-bottom: 8px;
+  position: relative; /* Относительное позиционирование элемента. */
+  margin-bottom: 8px; /* Нижний внешний отступ. */
 }
 
 .rewiew-form-field {
-  width: 100%;
-  height: 40px;
-  border-radius: 4px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  padding-left: 38px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: transparent;
-  outline: transparent;
+  width: 100%; /* Ширина элемента. */
+  height: 40px; /* Высота элемента. */
+  border-radius: 4px; /* Скругление углов элемента. */
+  border: 1px solid rgba(46, 47, 66, 0.4); /* Граница элемента. */
+  padding-left: 38px; /* Левый внутренний отступ. */
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение цвета границы. */
+  background-color: transparent; /* Прозрачный фон элемента. */
+  outline: transparent; /* Убирает контур фокуса элемента. */
 }
 
 .rewiew-form-field:focus {
-  border-color: #4d5ae5;
-  outline-color: transparent;
-  outline-offset: 3px;
+  border-color: #4d5ae5; /* Цвет границы при фокусе. */
+  outline-color: transparent; /* Убирает контур фокуса элемента. */
+  outline-offset: 3px; /* Расстояние от границы элемента до контура фокуса. */
 }
 
 .rewiew-form-field-icon {
-  position: absolute;
-  top: 50%;
-  left: 16px;
-  transform: translateY(-50%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: #2e2f42;
+  position: absolute; /* Абсолютное позиционирование элемента. */
+  top: 50%; /* Положение элемента относительно родительского контейнера. */
+  left: 16px; /* Положение элемента относительно родительского контейнера. */
+  transform: translateY(-50%); /* Смещение элемента на 50% от его собственной высоты вверх. */
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение цвета заливки. */
+  fill: #2e2f42; /* Цвет заливки иконки. */
 }
 
 .rewiew-form-field:focus + .rewiew-form-field-icon {
-  fill: #4d5ae5;
+  fill: #4d5ae5; /* Цвет заливки иконки при фокусе поля ввода. */
 }
 
 .rewiew-form-field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 8px; /* Нижний внешний отступ. */
 }
 
 .rewiew-form-field-wrapper-four {
-  margin-bottom: 16px;
+  margin-bottom: 16px; /* Нижний внешний отступ. */
 }
 
 .rewiew-form-message {
-  width: 100%;
-  height: 120px;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  border-radius: 4px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  resize: none;
-  padding: 8px 16px;
-  background-color: transparent;
-  outline: transparent;
-  color: rgba(46, 47, 66, 0.4);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%; /* Ширина элемента. */
+  height: 120px; /* Высота элемента. */
+  font-size: 12px; /* Размер шрифта. */
+  font-weight: 400; /* Нормальное начертание шрифта. */
+  line-height: 1.17; /* Высота строки. */
+  letter-spacing: 0.04em; /* Расстояние между буквами. */
+  border-radius: 4px; /* Скругление углов элемента. */
+  border: 1px solid rgba(46, 47, 66, 0.4); /* Граница элемента. */
+  resize: none; /* Запрет на изменение размеров элемента пользователем. */
+  padding: 8px 16px; /* Внутренние отступы элемента. */
+  background-color: transparent; /* Прозрачный фон элемента. */
+  outline: transparent; /* Убирает контур фокуса элемента. */
+  color: rgba(46, 47, 66, 0.4); /* Цвет текста. */
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение цвета границы. */
 }
 
 .rewiew-form-message::placeholder {
-  color: rgba(46, 47, 66, 0.4);
+  color: rgba(46, 47, 66, 0.4); /* Цвет плейсхолдера. */
 }
 
 .rewiew-form-message:focus {
-  border-color: #4d5ae5;
-  outline: transparent;
-  outline-offset: 3px;
+  border-color: #4d5ae5; /* Цвет границы при фокусе. */
+  outline: transparent; /* Убирает контур фокуса элемента. */
+  outline-offset: 3px; /* Расстояние от границы элемента до контура фокуса. */
 }
 
 .rewiew-form-checkbox-wrapper {
-  margin-bottom: 24px;
-  width: 259px;
+  margin-bottom: 24px; /* Нижний внешний отступ. */
+  width: 259px; /* Ширина элемента. */
 }
 
 .rewiew-form-checkbox-label {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
+  font-size: 12px; /* Размер шрифта. */
+  font-weight: 400; /* Нормальное начертание шрифта. */
+  line-height: 1.17; /* Высота строки. */
+  letter-spacing: 0.04em; /* Расстояние между буквами. */
+  color: #8e8f99; /* Цвет текста. */
 }
 
 .rewiew-form-own-checkbox {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  display: inline-flex; /* Отображение элементов как строчные блоки в строке. */
+  justify-content: center; /* Выравнивание содержимого по центру. */
+  align-items: center; /* Выравнивание элементов по вертикали. */
+  width: 16px; /* Ширина элемента. */
+  height: 16px; /* Высота элемента. */
+  border: 1px solid rgba(46, 47, 66, 0.4); /* Граница элемента. */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border-radius: 2px;
-  cursor: pointer;
-  fill: transparent;
-  margin-right: 8px;
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение цвета иконки. */
+  border-radius: 2px; /* Скругление углов элемента. */
+  cursor: pointer; /* Изменение вида курсора при наведении. */
+  fill: transparent; /* Прозрачная заливка иконки. */
+  margin-right: 8px; /* Правый внешний отступ. */
 }
 
 .rewiew-form-checkbox:checked + .rewiew-form-checkbox-label .rewiew-form-own-checkbox {
-  background-color: #404bbf;
-  fill: #f4f4fd;
-  border: none;
+  background-color: #404bbf; /* Цвет фона при выборе чекбокса. */
+  fill: #f4f4fd; /* Цвет заливки иконки при выборе чекбокса. */
+  border: none; /* Убирает границу у чекбокса при выборе. */
 }
 
 .rewiew-form-checkbox:focus + .rewiew-form-checkbox-label .rewiew-form-own-checkbox {
-  outline: 2px solid rgba(0, 0, 255, 0.5);
+  outline: 2px solid rgba(0, 0, 255, 0.5); /* Контур при фокусе на чекбоксе. */
 }
 
 .accent-color {
-  color: #4d5ae5;
+  color: #4d5ae5; /* Акцентный цвет текста. */
 }
 
 .rewiew-form-btn {
-  display: block;
-  font-family: 'Roboto', sans-serif;
-  min-width: 169px;
-  height: 56px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  border: none;
-  border-radius: 4px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: #ffffff;
-  background-color: #4d5ae5;
+  display: block; /* Элемент отображается как блок, чтобы занимать всю доступную ширину. */
+  font-family: 'Roboto', sans-serif; /* Шрифт элемента. */
+  min-width: 169px; /* Минимальная ширина элемента. */
+  height: 56px; /* Высота элемента. */
+  font-size: 16px; /* Размер шрифта. */
+  font-weight: 500; /* Нормальное начертание шрифта. */
+  line-height: 1.5; /* Высота строки. */
+  letter-spacing: 0.04em; /* Расстояние между буквами. */
+  text-align: center; /* Выравнивание текста по центру. */
+  margin-right: auto; /* Внешний отступ справа. */
+  margin-left: auto; /* Внешний отступ слева. */
+  border: none; /* Убирает границу у кнопки. */
+  border-radius: 4px; /* Скругление углов кнопки. */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение цвета фона кнопки. */
+  color: #ffffff; /* Цвет текста кнопки. */
+  background-color: #4d5ae5; /* Цвет фона кнопки. */
 }
 
 .modal-close-btn-icon {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение цвета заливки иконки. */
 }
 
 /* ! HIDDEN STYLES */
 @media screen and (max-width: 767px) {
   .mobile-opn-btn {
-    border: none;
-    background-color: transparent;
-    padding: 0;
-    line-height: 0;
-    fill: #2f2f37;
+    border: none; /* Убирает границу у кнопки. */
+    background-color: transparent; /* Прозрачный фон у кнопки. */
+    padding: 0; /* Убирает внутренние отступы у кнопки. */
+    line-height: 0; /* Убирает высоту строки. */
+    fill: #2f2f37; /* Цвет заливки иконки. */
   }
   /* ! MOBILE MENU BURGER*/
   .mobile-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 999999;
-    background-color: #ffffff;
-    transform: translateX(100%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: fixed; /* Фиксированное позиционирование элемента. */
+    top: 0; /* Расположение элемента относительно верхнего края родительского контейнера. */
+    left: 0; /* Расположение элемента относительно левого края родительского контейнера. */
+    width: 100%; /* Ширина элемента. */
+    height: 100%; /* Высота элемента. */
+    z-index: 999999; /* Порядок слоя элемента. */
+    background-color: #ffffff; /* Цвет фона элемента. */
+    transform: translateX(100%); /* Сдвиг элемента за пределы экрана по горизонтали. */
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение свойства transform. */
   }
 
   .mobile-menu.is-open {
-    transform: translateX(0%);
+    transform: translateX(0%); /* Сдвиг элемента в видимую область экрана по горизонтали. */
   }
 
   .mobile-menu-container {
-    position: relative;
-    padding: 72px 16px 40px;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+    position: relative; /* Относительное позиционирование элемента. */
+    padding: 72px 16px 40px; /* Внутренние отступы элемента. */
+    display: flex; /* Отображение элементов как блочные в строке. */
+    flex-direction: column; /* Направление блочного расположения элементов. */
+    height: 100%; /* Высота элемента. */
   }
 
   .mobile-menu-close-btn {
-    position: absolute;
-    top: 24px;
-    right: 23px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-    background-color: transparent;
-    line-height: 0;
-    padding: 0;
-    width: 24px;
-    height: 24px;
-    fill: #2e2f42;
+    position: absolute; /* Абсолютное позиционирование элемента. */
+    top: 24px; /* Расположение элемента относительно верхнего края родительского контейнера. */
+    right: 23px; /* Расположение элемента относительно правого края родительского контейнера. */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Граница элемента. */
+    border-radius: 50%; /* Скругление углов элемента. */
+    background-color: transparent; /* Прозрачный фон элемента. */
+    line-height: 0; /* Убирает высоту строки. */
+    padding: 0; /* Убирает внутренние отступы у кнопки. */
+    width: 24px; /* Ширина элемента. */
+    height: 24px; /* Высота элемента. */
+    fill: #2e2f42; /* Цвет заливки иконки. */
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .mobile-menu-close-btn:hover,
-  .mobile-menu-close-btn:focus {
-    background-color: #404bbf;
-    fill: #ffffff;
-    border: none;
-  }
-
-  .mobile-menu-close-btn-icon {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .mobile-list {
-    padding-top: 72px;
-  }
-
-  .menu-item-mobile:not(:last-child) {
-    margin-bottom: 10px;
-  }
-
-  .menu-link-mobile {
-    color: #2e2f42;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.12;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-  }
-
-  .menu-link-mobile:hover,
-  .menu-link-mobile:focus {
-    color: #404bbf;
-  }
-
-  .page-nav-mobile {
-    margin-bottom: auto;
-  }
-
-  .page-adress-mobile {
-    font-style: normal;
-  }
-
-  .adress-item-mobile:not(:last-child) {
-    margin-bottom: 24px;
-  }
-
-  .adress-link-mobile {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #434455;
-  }
-
-  .adress-link-mobile:hover,
-  .adress-link-mobile:focus {
-    color: #404bbf;
-  }
-
-  .mobile-social-list {
-    display: flex;
-    gap: 40px;
-    margin-top: 48px;
-  }
-
-  .mobile-social-list-item {
-    width: 40px;
-    height: 40px;
-  }
-
-  .mobile-social-list-link {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    background-color: #4d5ae5;
-  }
-
-  .mobile-social-list-icon {
-    fill: #f4f4fd;
-  }
-
-  .mobile-social-list-link:hover,
-  .mobile-social-list-link:focus {
-    background-color: #404bbf;
-  }
-
-  /* ! HEADER */
-
-  .page-header {
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
-
-  /* ! SECTION TWO */
-  .team-list-item:not(:last-child) {
-    margin-bottom: 72px;
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение цвета фона и границы элемента. */
   }
 }
+
+.mobile-menu-close-btn:hover,
+.mobile-menu-close-btn:focus {
+  background-color: #404bbf; /* Цвет фона при наведении или фокусе на кнопку закрытия меню. */
+  fill: #ffffff; /* Цвет заливки иконки при наведении или фокусе на кнопку закрытия меню. */
+  border: none; /* Убирает границу у кнопки закрытия меню при наведении или фокусе. */
+}
+
+.mobile-menu-close-btn-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение цвета заливки иконки. */
+}
+
+.mobile-list {
+  padding-top: 72px; /* Внутренний отступ сверху для списка элементов меню на мобильном устройстве. */
+}
+
+.menu-item-mobile:not(:last-child) {
+  margin-bottom: 10px; /* Внешний отступ снизу для элементов меню на мобильном устройстве, кроме последнего элемента. */
+}
+
+.menu-link-mobile {
+  color: #2e2f42; /* Цвет текста ссылки в меню на мобильном устройстве. */
+  font-size: 36px; /* Размер шрифта ссылки в меню на мобильном устройстве. */
+  font-style: normal; /* Обычный стиль шрифта. */
+  font-weight: 700; /* Полужирное начертание шрифта. */
+  line-height: 1.12; /* Высота строки. */
+  letter-spacing: 0.02em; /* Расстояние между буквами. */
+  text-transform: capitalize; /* Преобразует текст ссылки в меню на мобильном устройстве капитализацией первой буквы. */
+}
+
+.menu-link-mobile:hover,
+.menu-link-mobile:focus {
+  color: #404bbf; /* Цвет текста ссылки в меню на мобильном устройстве при наведении или фокусе. */
+}
+
+.page-nav-mobile {
+  margin-bottom: auto; /* Автоматический внешний отступ снизу для навигации страниц на мобильном устройстве. */
+}
+
+.page-adress-mobile {
+  font-style: normal; /* Обычный стиль шрифта для адреса на мобильном устройстве. */
+}
+
+.adress-item-mobile:not(:last-child) {
+  margin-bottom: 24px; /* Внешний отступ снизу для элементов адреса на мобильном устройстве, кроме последнего элемента. */
+}
+
+.adress-link-mobile {
+  font-size: 20px; /* Размер шрифта для ссылки адреса на мобильном устройстве. */
+  font-weight: 500; /* Полужирное начертание шрифта для ссылки адреса на мобильном устройстве. */
+  line-height: 1.2; /* Высота строки для ссылки адреса на мобильном устройстве. */
+  letter-spacing: 0.02em; /* Расстояние между буквами для ссылки адреса на мобильном устройстве. */
+  color: #434455; /* Цвет текста ссылки адреса на мобильном устройстве. */
+}
+
+.adress-link-mobile:hover,
+.adress-link-mobile:focus {
+  color: #404bbf; /* Цвет текста ссылки адреса на мобильном устройстве при наведении или фокусе. */
+}
+
+.mobile-social-list {
+  display: flex; /* Отображение иконок социальных сетей на мобильном устройстве в виде флекс-контейнера. */
+  gap: 40px; /* Расстояние между иконками социальных сетей на мобильном устройстве. */
+  margin-top: 48px; /* Внешний отступ сверху для иконок социальных сетей на мобильном устройстве. */
+}
+
+.mobile-social-list-item {
+  width: 40px; /* Ширина иконки социальной сети на мобильном устройстве. */
+  height: 40px; /* Высота иконки социальной сети на мобильном устройстве. */
+}
+
+.mobile-social-list-link {
+  display: flex; /* Отображение ссылок на социальные сети на мобильном устройстве в виде флекс-контейнера. */
+  width: 100%; /* Ширина ссылок на социальные сети на мобильном устройстве. */
+  height: 100%; /* Высота ссылок на социальные сети на мобильном устройстве. */
+  align-items: center; /* Выравнивание содержимого ссылок на социальные сети на мобильном устройстве по центру. */
+  justify-content: center; /* Выравнивание содержимого ссылок на социальные сети на мобильном устройстве по центру. */
+  border-radius: 50%; /* Радиус скругления углов ссылок на социальные сети на мобильном устройстве. */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение цвета фона ссылок на социальные сети на мобильном устройстве. */
+  background-color: #4d5ae5; /* Цвет фона ссылок на социальные сети на мобильном устройстве. */
+}
+
+.mobile-social-list-icon {
+  fill: #f4f4fd; /* Цвет заливки иконок социальных сетей на мобильном устройстве. */
+}
+
+.mobile-social-list-link:hover,
+.mobile-social-list-link:focus {
+  background-color: #404bbf; /* Цвет фона ссылок на социальные сети на мобильном устройстве при наведении или фокусе. */
+}
+
+/* ! HEADER */
+
+.page-header {
+  padding-top: 16px; /* Внутренний отступ сверху для заголовка страницы в хедере. */
+  padding-bottom: 16px; /* Внутренний отступ снизу для заголовка страницы в хедере. */
+}
+
+/* ! SECTION TWO */
+.team-list-item:not(:last-child) {
+  margin-bottom: 72px; /* Внешний отступ снизу для элементов списка команды, кроме последнего элемента. */
+}
+
 /* ! /HIDDEN STYLES */
 
 @media screen and (min-width: 320px) {
   .container {
-    width: 320px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 320px; /* Ширина контейнера на устройствах с минимальной шириной 320px. */
+    margin-left: auto; /* Выравнивание контейнера по левому краю. */
+    margin-right: auto; /* Выравнивание контейнера по правому краю. */
   }
 }
 
 /* ! MEDIA TABLET  */
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
+    width: 768px; /* Ширина контейнера на устройствах с минимальной шириной 768px. */
+    margin-left: auto; /* Выравнивание контейнера по левому краю. */
+    margin-right: auto; /* Выравнивание контейнера по правому краю. */
+    padding: 0 15px; /* Внутренний отступ слева и справа для контейнера. */
   }
   /* ! /MEDIA TABLET  */
 
   /* ! TABLET HEADER STYLES */
 
   .mobile-menu {
-    display: none;
+    display: none; /* Скрытие мобильного меню на планшетных устройствах. */
   }
 
   .mobile-opn-btn {
-    display: none;
+    display: none; /* Скрытие кнопки открытия мобильного меню на планшетных устройствах. */
   }
 
   .adress-list {
-    display: flex;
+    display: flex; /* Отображение списка адресов как блока на планшетных устройствах. */
   }
 
   .logotype {
-    margin-right: 120px;
+    margin-right: 120px; /* Внешний отступ справа для логотипа на планшетных устройствах. */
   }
 
   .page-navigation {
-    display: flex;
-    align-items: center;
+    display: flex; /* Отображение навигации страниц как блока на планшетных устройствах. */
+    align-items: center; /* Выравнивание элементов навигации по центру на планшетных устройствах. */
   }
 
   .menu {
-    display: flex;
-    align-items: flex-start;
-    gap: 40px;
+    display: flex; /* Отображение меню как блока на планшетных устройствах. */
+    align-items: flex-start; /* Выравнивание элементов меню по верхнему краю на планшетных устройствах. */
+    gap: 40px; /* Расстояние между элементами меню на планшетных устройствах. */
   }
   .menu-after {
-    position: relative;
-    color: #404bbf;
+    position: relative; /* Позиционирование элементов меню как относительное на планшетных устройствах. */
+    color: #404bbf; /* Цвет текста элементов меню на планшетных устройствах. */
   }
 
   .menu-link {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    display: block;
-    padding: 24px 0;
-    color: #2e2f42;
+    font-size: 16px; /* Размер шрифта для элементов меню на планшетных устройствах. */
+    font-weight: 500; /* Полужирное начертание шрифта для элементов меню на планшетных устройствах. */
+    line-height: 1.5; /* Высота строки для элементов меню на планшетных устройствах. */
+    letter-spacing: 0.02em; /* Расстояние между буквами для элементов меню на планшетных устройствах. */
+    display: block; /* Отображение элементов меню как блока на планшетных устройствах. */
+    padding: 24px 0; /* Внутренний отступ для элементов меню на планшетных устройствах. */
+    color: #2e2f42; /* Цвет текста элементов меню на планшетных устройствах. */
   }
 
   .link.menu-link.menu-after::after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 48px;
-    height: 4px;
-    border-radius: 2px;
-    margin-left: auto;
-    margin-right: auto;
-    bottom: -1px;
-    color: #404bbf;
-    background-color: rgb(64, 75, 191);
+    content: ''; /* Пустое содержимое псевдоэлемента ::after для создания полосы после элементов меню на планшетных устройствах. */
+    position: absolute; /* Позиционирование полосы после элементов меню как абсолютное на планшетных устройствах. */
+    display: block; /* Отображение полосы как блока на планшетных устройствах. */
+    width: 48px; /* Ширина полосы после элементов меню на планшетных устройствах. */
+    height: 4px; /* Высота полосы после элементов меню на планшетных устройствах. */
+    border-radius: 2px; /* Радиус скругления углов полосы после элементов меню на планшетных устройствах. */
+    margin-left: auto; /* Отступ слева для полосы после элементов меню на планшетных устройствах. */
+    margin-right: auto; /* Отступ справа для полосы после элементов меню на планшетных устройствах. */
+    bottom: -1px; /* Отступ снизу для полосы после элементов меню на планшетных устройствах. */
+    color: #404bbf; /* Цвет полосы после элементов меню на планшетных устройствах. */
+    background-color: rgb(
+      64,
+      75,
+      191
+    ); /* Цвет фона полосы после элементов меню на планшетных устройствах. */
   }
 
   .link.menu-link.menu-after {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение цвета текста элементов меню на планшетных устройствах. */
+    color: #404bbf; /* Цвет текста элементов меню на планшетных устройствах. */
   }
 
   .menu-link:hover,
   .menu-link:focus {
-    color: #404bbf;
+    color: #404bbf; /* Цвет текста элементов меню при наведении или фокусе на планшетных устройствах. */
   }
 
   .adress-list {
-    display: flex;
-    gap: 12px;
-    flex-direction: column;
+    display: flex; /* Отображение списка адресов как блока на планшетных устройствах. */
+    gap: 12px; /* Расстояние между элементами списка адресов на планшетных устройствах. */
+    flex-direction: column; /* Отображение элементов списка адресов в столбец на планшетных устройствах. */
   }
 
   .adress-link {
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.17;
-    letter-spacing: 0.48px;
-    color: #434455;
+    font-size: 12px; /* Размер шрифта для ссылок адреса на планшетных устройствах. */
+    font-style: normal; /* Начертание шрифта для ссылок адреса на планшетных устройствах. */
+    font-weight: 400; /* Полужирное начертание шрифта для ссылок адреса на планшетных устройствах. */
+    line-height: 1.17; /* Высота строки для ссылок адреса на планшетных устройствах. */
+    letter-spacing: 0.48px; /* Расстояние между буквами для ссылок адреса на планшетных устройствах. */
+    color: #434455; /* Цвет текста ссылок адреса на планшетных устройствах. */
   }
 
   .adress-link:hover,
   .adress-link:focus {
-    color: #404bbf;
+    color: #404bbf; /* Цвет текста ссылок адреса при наведении или фокусе на планшетных устройствах. */
   }
 
   .page-adress {
-    display: flex;
-    align-items: center;
+    display: flex; /* Отображение блока с адресом как флекс-контейнера на планшетных устройствах. */
+    align-items: center; /* Выравнивание элементов блока с адресом по центру на планшетных устройствах. */
   }
+
   /* ! /TABLET HEADER STYLES */
 
   /* ! TABLET MAIN STYLES */
 
   /* ! TABLET HERO SECTION */
   .hero {
-    padding-top: 112px;
-    padding-bottom: 112px;
+    padding-top: 112px; /* Внутренний отступ сверху для раздела героя на планшетных устройствах. */
+    padding-bottom: 112px; /* Внутренний отступ снизу для раздела героя на планшетных устройствах. */
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../images/peopofftab.jpg);
-    height: 436px;
+      url(../images/peopofftab.jpg); /* Фоновое изображение для раздела героя на планшетных устройствах. */
+    height: 436px; /* Высота раздела героя на планшетных устройствах. */
   }
 
   @media screen and (min-resolution: 192dpi),
@@ -1021,58 +1031,62 @@ body {
     screen and (min-device-pixel-ratio: 2) {
     .hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/peopofftab@2x.jpg);
+        url(../images/peopofftab@2x.jpg); /* Фоновое изображение с учетом высокого разрешения на планшетных устройствах. */
     }
   }
 
   .main-title {
-    margin-bottom: 36px;
-    max-width: 496px;
-    font-size: 56px;
-    line-height: 1.07;
-    text-transform: none;
+    margin-bottom: 36px; /* Внешний отступ снизу для основного заголовка на планшетных устройствах. */
+    max-width: 496px; /* Максимальная ширина для основного заголовка на планшетных устройствах. */
+    font-size: 56px; /* Размер шрифта для основного заголовка на планшетных устройствах. */
+    line-height: 1.07; /* Высота строки для основного заголовка на планшетных устройствах. */
+    text-transform: none; /* Преобразование текста без изменения регистра для основного заголовка на планшетных устройствах. */
   }
 
   .sub-title {
-    display: block;
-    font-size: 56px;
-    line-height: 1.07;
+    display: block; /* Отображение подзаголовка как блока на планшетных устройствах. */
+    font-size: 56px; /* Размер шрифта для подзаголовка на планшетных устройствах. */
+    line-height: 1.07; /* Высота строки для подзаголовка на планшетных устройствах. */
   }
 
   /* ! TABLET SECTION ONE */
 
   .comp-desc-list {
-    gap: 72px 24px;
-    flex-direction: row;
-    flex-wrap: wrap;
+    gap: 72px 24px; /* Расстояние между элементами списка описания компании на планшетных устройствах. */
+    flex-direction: row; /* Отображение элементов списка описания компании в строку на планшетных устройствах. */
+    flex-wrap: wrap; /* Перенос элементов списка описания компании на новую строку при нехватке места на планшетных устройствах. */
   }
 
   .comp-desc-list-item {
-    width: calc((100% - 24px) / 2);
+    width: calc(
+      (100% - 24px) / 2
+    ); /* Ширина элемента списка описания компании на планшетных устройствах. */
   }
 
   .additional-title-company {
-    text-align: left;
+    text-align: left; /* Выравнивание текста заголовка по левому краю на планшетных устройствах. */
   }
 
   /* ! TABLET SECTION TWO */
 
   .team-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 24px;
-    row-gap: 64px;
+    display: flex; /* Отображение списка команды как флекс-контейнера на планшетных устройствах. */
+    flex-wrap: wrap; /* Перенос элементов списка команды на новую строку при нехватке места на планшетных устройствах. */
+    justify-content: center; /* Выравнивание элементов списка команды по центру на планшетных устройствах. */
+    column-gap: 24px; /* Расстояние между столбцами списка команды на планшетных устройствах. */
+    row-gap: 64px; /* Расстояние между строками списка команды на планшетных устройствах. */
   }
   /* ! TABLET SECTION THREE */
 
   .portfolio-list {
-    column-gap: 24px;
-    row-gap: 72px;
+    column-gap: 24px; /* Расстояние между столбцами списка портфолио на планшетных устройствах. */
+    row-gap: 72px; /* Расстояние между строками списка портфолио на планшетных устройствах. */
   }
 
   .portfolio-list-item {
-    width: calc((100% - 24px) / 2);
+    width: calc(
+      (100% - 24px) / 2
+    ); /* Ширина элемента списка портфолио на планшетных устройствах. */
   }
 
   /* ! /TABLET MAIN  */
@@ -1080,111 +1094,103 @@ body {
   /* ! FOOTER */
 
   .footer-content {
-    padding: 96px 0;
+    padding: 96px 0; /* Внутренние отступы для содержимого подвала. */
   }
 
   .container-holder {
-    display: flex;
-    flex-wrap: wrap;
-    width: 584px;
+    display: flex; /* Отображение контейнера как флекс-контейнера. */
+    flex-wrap: wrap; /* Перенос элементов контейнера на новую строку при нехватке места. */
+    width: 584px; /* Ширина контейнера. */
   }
 
   .logo-link-footer {
-    justify-content: normal;
+    justify-content: normal; /* Выравнивание элементов логотипа по нормальному расстоянию. */
   }
 
   .footer-logo {
-    display: flex;
-    flex-direction: column;
-
-    margin-right: 24px;
+    display: flex; /* Отображение логотипа как флекс-контейнера. */
+    flex-direction: column; /* Отображение логотипа как столбца. */
+    margin-right: 24px; /* Внешний отступ справа для логотипа. */
   }
 
   .social-networks-menu {
-    display: flex;
-    align-items: flex-start;
-    gap: 16px;
-    width: 100%;
-    height: 100%;
-    list-style-type: none;
+    display: flex; /* Отображение списка социальных сетей как флекс-контейнера. */
+    align-items: flex-start; /* Выравнивание элементов списка социальных сетей по верхнему краю. */
+    gap: 16px; /* Расстояние между элементами списка социальных сетей. */
+    width: 100%; /* Ширина списка социальных сетей. */
+    height: 100%; /* Высота списка социальных сетей. */
+    list-style-type: none; /* Стиль маркера для элементов списка социальных сетей. */
   }
 
   .social-networks-title {
-    justify-content: normal;
+    justify-content: normal; /* Выравнивание заголовка списка социальных сетей по нормальному расстоянию. */
   }
 
   .footer-subscribe {
-    display: flex;
-    flex-direction: column;
+    display: flex; /* Отображение блока подписки как флекс-контейнера. */
+    flex-direction: column; /* Отображение блока подписки как столбца. */
   }
 
   .footer-subscribe-button {
-    margin-left: 24px;
+    margin-left: 24px; /* Внешний отступ слева для кнопки подписки. */
   }
 
   .footer-subscribe-title {
-    justify-content: normal;
+    justify-content: normal; /* Выравнивание заголовка подписки по нормальному расстоянию. */
   }
 
   .footer-input-email {
-    width: 264px;
+    width: 264px; /* Ширина поля ввода электронной почты. */
   }
-
-  /* ! TABLET BACKDROP */
-  /* ! /TABLET BACKDROP */
 
   /* ! TABLET MODAL WINDOW */
   .modal {
-    width: 408px;
-    min-height: 584px;
+    width: 408px; /* Ширина модального окна. */
+    min-height: 584px; /* Минимальная высота модального окна. */
   }
 
   .rewiew-form-description {
-    width: 360px;
+    width: 360px; /* Ширина описания формы отзыва. */
   }
 
   .rewiew-form-checkbox-wrapper {
-    width: 376px;
+    width: 376px; /* Ширина обертки для чекбокса в форме отзыва. */
   }
 }
 /* ! MEDIA DESCTOP */
 @media screen and (min-width: 1158px) {
   .container {
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 1158px; /* Ширина контейнера на экранах с шириной не менее 1158 пикселей. */
+    margin-left: auto; /* Выравнивание контейнера по левому краю. */
+    margin-right: auto; /* Выравнивание контейнера по правому краю. */
   }
-  /* ! /MEDIA DESCTOP */
 
-  /* ! DESCTOP HEADER   */
+  /* ! DESCTOP HEADER */
   .logotype {
-    margin-right: 76px;
+    margin-right: 76px; /* Внешний отступ справа для логотипа. */
   }
 
   .adress-list {
-    flex-direction: row;
-    gap: 40px;
+    flex-direction: row; /* Отображение списка адресов в ряд. */
+    gap: 40px; /* Расстояние между элементами списка адресов. */
   }
 
   .adress-link {
-    font-size: 16px;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    font-size: 16px; /* Размер шрифта для ссылок на адреса. */
+    font-style: normal; /* Отмена курсива для ссылок на адреса. */
+    line-height: 1.5; /* Межстрочный интервал для ссылок на адреса. */
+    letter-spacing: 0.02em; /* Межбуквенный интервал для ссылок на адреса. */
   }
-
-  /* ! /DESCTOP HEADER  */
+  /* ! /DESCTOP HEADER */
 
   /* ! DESCTOP MAIN STYLES */
   /* ! DESCTOP SECTION HERO */
-
   .hero {
-    padding-top: 188px;
-    padding-bottom: 188px;
-
+    padding-top: 188px; /* Внутренний отступ сверху для секции героя. */
+    padding-bottom: 188px; /* Внутренний отступ снизу для секции героя. */
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../images/peopoffdesc.jpg);
-    height: 600px;
+      url(../images/peopoffdesc.jpg); /* Фоновое изображение секции героя. */
+    height: 600px; /* Высота секции героя. */
   }
 
   @media screen and (min-resolution: 192dpi),
@@ -1192,121 +1198,132 @@ body {
     screen and (min-device-pixel-ratio: 2) {
     .hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/peopoffdesc@2x.jpg);
+        url(../images/peopoffdesc@2x.jpg); /* Фоновое изображение секции героя с высоким разрешением. */
     }
   }
 
   .main-title {
-    margin-bottom: 48px;
-    max-width: 496px;
-    font-size: 56px;
-    line-height: 1.07;
-    color: #ffffff;
+    margin-bottom: 48px; /* Внутренний отступ снизу для основного заголовка. */
+    max-width: 496px; /* Максимальная ширина для основного заголовка. */
+    font-size: 56px; /* Размер шрифта для основного заголовка. */
+    line-height: 1.07; /* Межстрочный интервал для основного заголовка. */
+    color: #ffffff; /* Цвет текста для основного заголовка. */
   }
+  /* ! DESCTOP SECTION HERO */
 
   /* ! DESCTOP SECTION ONE */
-
   .our-company {
-    padding: 120px 0;
+    padding: 120px 0; /* Внутренние отступы для секции "О нашей компании". */
   }
 
   .list-icon {
-    display: flex;
-    gap: 24px;
-    list-style-type: none;
+    display: flex; /* Отображение списка значков как флекс-контейнера. */
+    gap: 24px; /* Расстояние между элементами списка значков. */
+    list-style-type: none; /* Удаление маркеров у элементов списка значков. */
   }
 
   .container-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 264px;
-    height: 112px;
-    flex-shrink: 0;
-    border-radius: 4px;
-    margin-bottom: 8px;
-    border: 1px solid #8e8f99;
-    background: #f4f4fd;
+    display: flex; /* Отображение контейнера значка как флекс-контейнера. */
+    align-items: center; /* Выравнивание элементов значка по вертикали. */
+    justify-content: center; /* Выравнивание элементов значка по горизонтали. */
+    width: 264px; /* Ширина контейнера значка. */
+    height: 112px; /* Высота контейнера значка. */
+    flex-shrink: 0; /* Запрет уменьшения размера контейнера значка. */
+    border-radius: 4px; /* Радиус скругления углов контейнера значка. */
+    margin-bottom: 8px; /* Внешний отступ снизу для контейнера значка. */
+    border: 1px solid #8e8f99; /* Граница контейнера значка. */
+    background: #f4f4fd; /* Фоновый цвет контейнера значка. */
   }
 
   .comp-desc-list {
-    gap: 24px;
+    gap: 24px; /* Расстояние между элементами списка компании. */
   }
 
   .comp-desc-list-item {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4); /* Ширина элементов списка компании. */
   }
 
   .additional-title-company {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    color: #2e2f42;
+    font-size: 20px; /* Размер шрифта для дополнительного заголовка компании. */
+    font-weight: 500; /* Начертание шрифта для дополнительного заголовка компании. */
+    line-height: 1.2; /* Межстрочный интервал для дополнительного заголовка компании. */
+    color: #2e2f42; /* Цвет текста для дополнительного заголовка компании. */
   }
+
   .text {
-    font-weight: 400;
+    font-weight: 400; /* Начертание шрифта для текстового контента. */
   }
+  /* ! DESCTOP SECTION ONE */
 
-  /* ! DESCTOP SECTION TWO */
+  /* ! /MEDIA DESCTOP */
 
+  /* ! DESCTOP MAIN STYLES */
+  /* ! DESCTOP SECTION THREE */
+
+  /* Styling for the "Our Team" section */
   .our-team {
-    padding: 120px 0;
+    padding: 120px 0; /* Padding for the "Our Team" section */
   }
 
   .team-list-item {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4); /* Width calculation for each team list item */
   }
 
   /* ! DESCTOP SECTION THREE */
 
+  /* Styling for the "Portfolio" section */
   .portfolio {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 120px; /* Top padding for the "Portfolio" section */
+    padding-bottom: 120px; /* Bottom padding for the "Portfolio" section */
   }
 
   .portfolio-list {
-    column-gap: 24px;
+    column-gap: 24px; /* Gap between columns in the portfolio list */
   }
 
   .portfolio-list-item {
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3); /* Width calculation for each portfolio list item */
   }
 
   /* ! /DESCTOP MAIN STYLES */
 
   /* ! DESCTOP FOOTER */
 
+  /* Styling for the footer section on desktop */
   .footer-content {
-    padding: 100px 0;
+    padding: 100px 0; /* Padding for the footer content */
   }
 
   .container-holder {
-    flex-wrap: nowrap;
+    flex-wrap: nowrap; /* Prevent wrapping of items inside the container holder */
   }
 
   .footer-media,
   .footer-logo {
-    margin-bottom: 0;
+    margin-bottom: 0; /* Remove bottom margin for footer media and logo */
   }
 
   .footer-logo {
-    margin-left: 0;
-    margin-right: 120px;
+    margin-left: 0; /* Reset left margin for footer logo */
+    margin-right: 120px; /* Right margin for footer logo */
   }
 
   .footer-media {
-    margin-right: 80px;
+    margin-right: 80px; /* Right margin for footer media */
   }
+
   .footer-form {
-    display: flex;
-    gap: 24px;
+    display: flex; /* Display the footer form as a flex container */
+    gap: 24px; /* Gap between elements in the footer form */
   }
 
   .footer-subscribe {
-    margin-left: 0;
+    margin-left: 0; /* Reset left margin for footer subscribe */
   }
 
   .footer-subscribe-button {
-    margin-left: 0;
+    margin-left: 0; /* Reset left margin for footer subscribe button */
   }
 }
+
+/* ! /DESCTOP FOOTER */
