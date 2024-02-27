@@ -1,4 +1,4 @@
-/*! RULES TAG*/ /* Этот комментарий сохраняется при сжатии CSS файлов и, вероятно, используется для идентификации определенных блоков стилей. */
+/*! RULES TAG*/
 
 h1,
 h2,
@@ -64,7 +64,7 @@ body {
   overflow: hidden; /* Убирает все, что выходит за пределы области отсечения. */
 }
 
-/*! MOBILES HEADER STYLES */ /* Этот комментарий вероятно обозначает начало стилей для мобильной версии заголовка. */
+/*! MOBILES HEADER STYLES */
 
 .menu {
   display: none; /* Скрывает элемент с классом .menu. */
@@ -104,11 +104,11 @@ body {
   letter-spacing: 0.03em; /* Устанавливает расстояние между буквами. */
   color: #2e2f42; /* Задает цвет текста. */
 }
-/* ! /MOBILE HEADER STYLES */ /* Конец стилей для мобильного заголовка. */
+/* ! /MOBILE HEADER STYLES */
 
-/* ! MOBILE MAIN STYLES */ /* Начало основных стилей для мобильной версии. */
+/* ! MOBILE MAIN STYLES */
 
-/* ! MOBILE SECTION HERO */ /* Стили для главного раздела в мобильной версии. */
+/* ! MOBILE SECTION HERO */
 .hero {
   padding-top: 72px; /* Верхний внутренний отступ. */
   padding-bottom: 72px; /* Нижний внутренний отступ. */
@@ -181,8 +181,7 @@ body {
   text-align: center; /* Выравнивание текста по центру. */
 }
 
-/* ! MOBILE SECTION ONE */ /* Стили для первого раздела в мобильной версии. */
-
+/* ! MOBILE SECTION ONE */
 .list-icon {
   display: none; /* Скрывает элемент с классом .list-icon. */
 }
@@ -217,7 +216,7 @@ body {
   color: #434455; /* Задает цвет текста. */
 }
 
-/* ! MOBILE SECTION TWO */ /* Стили для второго раздела в мобильной версии. */
+/* ! MOBILE SECTION TWO */
 
 .our-team {
   padding: 96px 0; /* Внутренний отступ сверху и снизу. */
@@ -306,7 +305,7 @@ body {
   background-color: #404bbf; /* Изменение цвета фона при наведении или фокусе. */
 }
 
-/* ! MOBILE SECTION THREE */ /* Стили для третьего раздела в мобильной версии. */
+/* ! MOBILE SECTION THREE */
 
 .portfolio {
   padding-top: 96px; /* Верхний внутренний отступ. */
@@ -374,9 +373,9 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавное изменение положения при анимации. */
 }
 
-/* ! /MOBILE MAIN STYLES */ /* Конец основных стилей для мобильной версии. */
+/* ! /MOBILE MAIN STYLES */
 
-/* ! MOBILE FOOTER */ /* Стили для подвала в мобильной версии. */
+/* ! MOBILE FOOTER */
 
 .footer-content {
   padding: 97.5px 0; /* Внутренний отступ сверху и снизу. */
@@ -457,7 +456,7 @@ body {
   fill: rgb(244, 244, 253); /* Цвет иконки внутри элемента списка. */
 }
 
-/* ! MOBILE SUBSCRIBE */ /* Стили для раздела подписки в мобильной версии. */
+/* ! MOBILE SUBSCRIBE */
 
 .footer-subscribe-title {
   display: flex; /* Элемент отображается как блок. */
@@ -520,7 +519,7 @@ body {
   color: #fff; /* Цвет текста. */
 }
 
-/* ! MOBILE BACKDROP */ /* Стили для подложки в мобильной версии. */
+/* ! MOBILE BACKDROP */
 
 .backdrop {
   position: fixed; /* Позиционирование элемента фиксированное. */
@@ -543,7 +542,7 @@ body {
   pointer-events: auto; /* Включение событий мыши на элементе. */
 }
 
-/* ! MOBILE MODAL WINDOW */ /* Стили для модального окна в мобильной версии. */
+/* ! MOBILE MODAL WINDOW */
 
 .modal {
   position: absolute; /* Абсолютное позиционирование элемента. */
